@@ -163,7 +163,7 @@ void Hacks::NoHands()
 void Hacks::Initialize()
 {
 	char process[] = "csgo.exe";
-	char client_dll[] = "client_panorama.dll";
+	char client_dll[] = "client.dll";
 	char engine_dll[] = "engine.dll";
 	Hacks::mem.Process(process);
 	Hacks::gameModule = Hacks::mem.Module(client_dll);
